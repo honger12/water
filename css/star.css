@@ -1,0 +1,21 @@
+.emmm{
+    width: 90px;
+    height: 20px;
+}
+div{
+    /*width: 90px;*/
+    /*height: 20px;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*background: blue;*/
+    overflow: hidden;
+}
+/*div.a{*/
+/*    width: 54px;*/
+/*    overflow: hidden;*/
+/*}*/
+div > [src]{
+    width: 90px;
+    height: 20px;
+}

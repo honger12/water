@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    /*background: yellow;*/
+    padding: 0 0.22rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+.iconfont{
+    color: #4ebbfe;
+}
+
+.content{
+    padding: 0.28rem 0.24rem;
+
+}
+.content .content1{
+    width: 7.01rem;
+    height: 1.63rem;
+    background-color: #e7f6ff;
+    border-radius: 8px;
+    opacity: 0.5;
+}

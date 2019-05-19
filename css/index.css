@@ -1,0 +1,217 @@
+@import "base.css";
+/*导入样式表*/
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+header > .head{
+    /*width: 3.31rem;*/
+    width: 100%;
+    height: 0.42rem;
+    /*margin-bottom: 0.22rem;*/
+    margin-top:0.22rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.22rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+header > .iconfont{
+    width: 0.25rem;
+    height: 0.42rem;
+}
+
+
+/*header > li{*/
+/*    !*height: 88px;*!*/
+/*    height: 0.88rem;*/
+/*    !*text-align: center;*!*/
+/*    line-height: 0.88rem;*/
+/*    font-size: 0.38rem;*/
+/*    color: #4ebbfe;*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*    !*align-items: center;*!*/
+/*    !*justify-content: space-around;*!*/
+/*}*/
+
+
+
+.search{
+    padding:0.17rem 0.22rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.search > span{
+    float: left;
+    color: #4ebbfe;
+    font-size: 0.28rem;
+}
+.search > .iconfont{
+    margin-left: 0.14rem;
+    width: 0.17rem;
+    height: 0.1rem;
+}
+.search > a{
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    background: #ebf7ff;
+    border: 0.03rem solid rgba(55, 169, 254, 0.17);
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+}
+/*search*/
+
+.banner{
+    width: 100%;
+    height: 3rem;
+    background: #4ebbfe;
+}
+
+.category{
+    padding: 0.22rem;
+    height: 6.9rem;
+    /*background: #3CA0FE;*/
+    display: flex;
+    /*默认值为row ;*/
+    /*justify-content: 子元素（项目的属性设置）;*/
+    justify-content: space-between;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    align-items: center;
+}
+.category > li{
+    width: 2.3rem;
+    height: 1.94rem;
+    background: white;
+}
+.category > li > a{
+    /*display: block;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /*color: #000;*/
+    /*font-size: ;*/
+}
+.category > li > a > div{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.category > li > a > div >img{
+    width: 100%;
+    height: 100%;
+}
+
+/*我的底部*/
+/*.bottom{*/
+/*    width: 100%;*/
+/*    height: 0.98rem;*/
+/*    !*background: blue;*!*/
+/*    display: flex;*/
+/*    !*默认值为row ;*!*/
+/*    !*justify-content: 子元素（项目的属性设置）;*!*/
+/*    justify-content: space-around;*/
+/*    !*align-items: center;*!*/
+/*    !*flex-wrap: wrap;*!*/
+/*    align-items: center;*/
+/*}*/
+/*.bottom > li{*/
+/*    !*display: inline-block;*!*/
+/*    !*width: 1.4rem;*!*/
+/*    height: 100%;*/
+/*    width: 1rem;*/
+/*    !*background: #000;*!*/
+/*}*/
+/*.bottom > li > a{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+/*.bottom > li > a >div{*/
+/*    width: 0.31rem;*/
+/*    height: 0.28rem;*/
+/*}*/
+/*.bottom > li > a >div > img{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+/*.bottom > li > a > p{*/
+/*    font-size:0.24rem;*/
+/*}*/
+/*底部end*/
+
+/*老师——底部*/
+footer{
+    width: 100%;
+    height:0.98rem ;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /*有padding扩大宽度100%*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*缩回100%的宽度*/
+    display: flex;
+    justify-content: space-between;
+}
+footer > a{
+    width: 0.7rem;
+    height: 100%;
+    /*background: #046B80;*/
+    font-size: 0.24rem;
+    color: #04bbfe;
+    /*图片和文字居中（前提：图片不是block的形式）*/
+    text-align: center;
+    padding-top: 0.1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*调节亮度 （透明度）*/
+    opacity: 0.5;
+}
+footer >a.hot{
+    opacity: 1;
+}
+footer > a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
+/*底部end*/
+
