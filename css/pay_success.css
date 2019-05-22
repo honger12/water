@@ -1,0 +1,254 @@
+.center{
+    margin: 0.63rem 0.22rem 1.1rem 0.22rem;
+    height: 4.55rem;
+    /*background: blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center > .photo{
+    width: 1.08rem;
+    height: 0.81rem;
+    margin-bottom: 0.4rem;
+}
+.center > .photo > img{
+    width: 100%;
+    height: 100%;
+}
+.center > p{
+    font-size: 0.26rem;
+    color: #4f5b64;
+}
+.center > .sign{
+    margin-bottom: 0.21rem;
+}
+.center > .sign::before{
+
+}
+.center > .b{
+    margin-top: 0.52rem;
+}
+.center > .b > .b_left{
+    width: 1.96rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%),
+    linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-right: 0.63rem;
+}
+.center > .b > .b_right{
+    width: 1.96rem;
+    height: 0.6rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+    border-radius: 0.3rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    float: right;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+
+.xiangsi{
+    padding-bottom: 0.1rem ;
+    /*color: #41b2fc;*/
+    margin:0.4rem 0.24rem;
+    height: auto;
+}
+.xiangsi > .left{
+    font-size:0.32rem ;
+    line-height: 0.4rem;
+    /*color: #41b2fc;*/
+    /*float: left;*/
+    color: #35db82;
+    /*display: block;*/
+    padding-left: 0.2rem;
+    position: relative;
+}
+.xiangsi > .left::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 3px;
+    position: absolute;
+    top: 0.18rem;
+    left: 0;
+}
+
+.picture{
+    /*padding-bottom: 0.1rem ;*/
+    /*color: #41b2fc;*/
+    margin:0.4rem 0.24rem;
+    /*height: auto;*/
+    height: 5.88rem;
+    /*background: blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.picture > li{
+    /*width:2.58rem;*/
+    width: 3.25rem;
+    height: 3.86rem;
+    /*background: yellow;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    flex-direction: row;
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    margin-bottom: 0.5rem;
+
+}
+.picture > li > .p{
+    margin-left: 0.72rem;
+    width: 1.53rem;
+    height: 1.61rem;
+    /*background: plum;*/
+    overflow: hidden;
+}
+.picture > li > .p_one{
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    /*margin-top: 0.18rem;*/
+    /*margin-bottom: 0.05rem;*/
+    float: left;
+    display: inline-block;
+    margin-bottom: 0.1rem;
+}
+.picture > li > .p_two{
+    font-size: 0.28rem;
+    color: #fbb548;
+    float: right;
+    display: inline-block;
+}
+.picture > li > .p_three{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.5;
+    float: left;
+    /*display: block;*/
+    width: 3.24rem;
+    padding-bottom: 0.17rem;
+    border-bottom:  solid 0.04rem rgba(0,0,0,0.1);
+}
+.picture > li > .ping{
+    width: auto;
+    margin-right: 0.24rem;
+    margin-top: 0.18rem;
+    /*background: plum;*/
+    display: inline-block;
+    position: relative;
+}
+.picture > li > .ping span{
+    padding-left: 0.14rem;
+    /*position: relative;*/
+}
+.picture > li > .ping span::before{
+    position: absolute;
+    top: 0.22rem;
+    left: 0;
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #4ebbfe;
+}
+.ping .zuo{
+    width: 0.45rem;
+    height: 0.21rem;
+    font-size: 0.24rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.ping .you{
+    width: 0.36rem;
+    height: 0.18rem;
+    font-size: 0.24rem;
+    color: #36a8fe;
+
+}
+.ping .bai{
+    display: inline-block;
+    /*opacity: 0.1;*/
+    font-size: 0.24rem;
+    color: #b9e1ff;
+    position: absolute;
+    right: -0.18rem;
+    top: 0.08rem;
+}
+
+.picture > li  .zhuan{
+    width: auto;
+    height: 0.35rem;
+    font-size: 0.2rem;
+    color: #36a8fe;
+    display: inline-block;
+    margin-right:0.1rem ;
+    /*background: #3babff;*/
+    /*background: #40FFEB;*/
+    background: rgba(59,171,255,0.1);
+    -webkit-border-radius: 0.18rem;
+    -moz-border-radius: 0.18rem;
+    border-radius: 0.18rem;
+    /*opacity: 0.1;*/
+    line-height: 0.35rem;
+    padding: 0.02rem 0.18rem;
+    margin-top: 0.19rem;
+}
+
+
+
+
+
+/*底部*/
+footer{
+    width: 100%;
+    height:0.98rem ;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /*有padding扩大宽度100%*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*缩回100%的宽度*/
+    display: flex;
+    justify-content: space-between;
+}
+footer > a{
+    width: 0.7rem;
+    height: 100%;
+    /*background: #046B80;*/
+    font-size: 0.24rem;
+    color: #04bbfe;
+    /*图片和文字居中（前提：图片不是block的形式）*/
+    text-align: center;
+    padding-top: 0.1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*调节亮度 （透明度）*/
+    opacity: 0.5;
+}
+footer >a.hot{
+    opacity: 1;
+}
+footer > a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
+/*底部end*/

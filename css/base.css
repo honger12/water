@@ -1,3 +1,21 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    /*background: yellow;*/
+    padding: 0 0.22rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+.iconfont{
+    color: #4ebbfe;
+}
+
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,input,textarea,select,option{
     margin: 0;
     padding:0;

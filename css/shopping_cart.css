@@ -17,7 +17,7 @@ header{
 }
 
 .content{
-    padding: 0.24rem 0.24rem;
+    padding: 0.24rem 0.22rem;
     /*background: #000;*/
     height: 1.74rem;
     overflow: hidden;
@@ -123,7 +123,7 @@ header{
 .s{
     font-size: 0.24rem;
     color: #3bacfe;
-    padding: 0.24rem 0.24rem;
+    padding: 0.24rem 0.22rem;
     margin-top: 0.4rem;
 }
 .s > p{

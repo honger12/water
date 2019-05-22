@@ -10,6 +10,7 @@ header{
     justify-content: space-between;
     color: #4ebbfe;
     line-height: 0.88rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
 }
 .iconfont{
     color: #4ebbfe;
@@ -33,7 +34,7 @@ header{
 /*search*/
 
 .list{
-    padding: 0.24rem 0.24rem;
+    padding: 0.24rem 0.22rem;
     /*background: #000;*/
 }
 .list .sh{
@@ -70,7 +71,7 @@ header{
 .pingjia{
     padding-bottom: 0.1rem ;
     /*color: #41b2fc;*/
-    margin:0.4rem 0.24rem;
+    margin:0.4rem 0.22rem;
     height: auto;
 }
 .pingjia .left{
@@ -115,7 +116,7 @@ header{
 }
 
 .content{
-    padding: 0.24rem 0.24rem;
+    padding: 0.24rem 0.22rem;
     /*background: plum;*/
 
 }
@@ -285,7 +286,7 @@ header{
     background-color: #caecff;
     border-radius: 0.03rem;
 }
-.bottom > .bottom_one > p{
+.bottom > .bottom_one > p > a{
     font-size: 0.24rem;
     line-height: 0.4rem;
     color: #9ddcff;
