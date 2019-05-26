@@ -1,0 +1,235 @@
+.content{
+    padding: 0.24rem 0.22rem;
+    /*background: plum;*/
+
+}
+.one{
+    display: flex;
+    margin-bottom: 0.32rem;
+}
+.content .one > .one_left{
+    width: 1.17rem;
+    height: 1.17rem;
+    background-color: #ffdd29;
+    box-shadow: 0 0.01rem 0.27rem 0 rgba(204, 204, 204, 0.75);
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+    /*border-radius: 0.1rem;*/
+    /*text-align: center;*/
+    /*margin: 0.31rem 0.36rem 0.22rem 0.41rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .one > .one_left > img{
+    width: 100%;
+    height: 100%;
+    /*-webkit-border-radius: 50%;*/
+    /*-moz-border-radius: 50%;*/
+    /*border-radius: 50%;*/
+}
+
+.one > .one_right{
+    flex: 1;
+    /*float: right;*/
+    padding-left: 0.3rem;
+    margin-left: 0.02rem;
+    background: white;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.one > .one_right > .shang{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.36rem;
+}
+.one > .one_right > .shang > .top{
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.7;
+}
+.one > .one_right > .shang > .s_r{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    line-height: 0.4rem;
+    padding-right: 0.22rem;
+    position: relative;
+}
+.one > .one_right > .shang > .s_r a{
+    font-size: 0.2rem;
+    color: #3bacfe;
+}
+.one > .one_right > .shang > .s_r::after{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background-color: #3bacfe;
+    position: absolute;
+    right: 0.12rem;
+    top: 0.14rem;
+}
+.one > .one_right > .shang > .s_r::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background-color: #3bacfe;
+    position: absolute;
+    left:  0.74rem;
+    top: 0.14rem;
+    opacity: 0.4;
+}
+
+.one_right .d{
+    /*width: 0.3rem;*/
+    width: 100%;
+    height: 0.3rem;
+    /*background: blue;*/
+    margin-top: 0.19rem;
+}
+.d > .store_p{
+    width: 0.28rem;
+    height: 0.2rem;
+    /*background: #000;*/
+    display: inline-block;
+    float: left;
+    margin-right:0.1rem ;
+    /*margin-top: 0.62rem;*/
+}
+.store_p > img{
+    width: 100%;
+    height: 100%;
+}
+.d > .store_z{
+    width: 0.88rem;
+    height: 100%;
+    display: inline-block;
+    font-size: 0.22rem;
+    color: #cfcfcf;
+    line-height: 0.2rem;
+    overflow: hidden;
+}
+
+
+.bottom{
+    /*width: 7.49rem;*/
+    /*height: 1.08rem;*/
+    width: 100%;
+    height: auto;
+    /*background-color: #f1faff;*/
+    /*45 25  */
+    /*padding-left: 0.45rem;*/
+    /*padding-right: 0.25rem;*/
+    /*display: flex;*/
+    /*fixed: bottom;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom .b_one{
+    width: 1.5rem;
+    /*height: 0.5rem;*/
+    height: 1.08rem;
+    /*background: #000;*/
+    /*margin-right:0.7rem ;*/
+    /*float: left;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .b_one > .ing{
+    /*width: 0.82rem;*/
+    /*height: 0.33rem;*/
+    font-size: 0.46rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+}
+.bottom .b_one > .b_one1{
+    color: #4ebbfe;
+    box-shadow: 0 0.04rem 0.08rem 0 rgba(41, 167, 255, 0.36);
+}
+.bottom .b_one > .b_one2{
+    color: #2ddd67;
+    box-shadow:0 0.04rem 0.08rem 0 rgba(46, 213, 147, 0.36);
+}
+.bottom .b_one > .b_one3{
+    color: #ffdb34;
+    box-shadow:0 0.04rem 0.08rem 0 rgba(255, 213, 53, 0.36);
+}
+.bottom .b_one > p > a{
+    /*margin-top:0.1rem ;*/
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.6);
+    /*opacity: 0.6;*/
+}
+/*.bottom .b_two{*/
+/*    width: 0.8rem;*/
+/*    height: 1.18rem;*/
+/*    !*background: #000;*!*/
+/*    margin-right:0.5rem ;*/
+/*    float: left;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.bottom .b_two > img{*/
+/*    width: 0.5rem;*/
+/*    height: 0.5rem;*/
+/*}*/
+/*.bottom .b_two > p{*/
+/*    !*margin-top:0.1rem ;*!*/
+/*    font-size: 0.2rem;*/
+/*    color: #2ed977;*/
+/*    opacity: 0.6;*/
+/*}*/
+
+
+.pingjia{
+    padding-bottom: 0.1rem ;
+    /*color: #41b2fc;*/
+    margin:0 0.22rem;
+    height: 0.91rem;
+    padding-left: 0.22rem;
+    border-bottom: 0.02rem dashed rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pingjia .left{
+    font-size:0.28rem ;
+    line-height: 0.4rem;
+    color: rgba(0,0,0,0.7);
+    /*float: left;*/
+    display: inline-block;
+    padding-left: 0.2rem;
+    position: relative;
+}
+.pingjia .left > a{
+    font-size:0.28rem ;
+    line-height: 0.4rem;
+    color: rgba(0,0,0,0.7);
+}
+.pingjia .left::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 3px;
+    position: absolute;
+    top: 0.18rem;
+    left: 0;
+}
+.pingjia .right{
+    font-family: SanFranciscoDisplay-Heavy;
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.40rem;
+    color: #fe624e;
+}
+

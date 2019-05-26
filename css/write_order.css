@@ -180,3 +180,6 @@ header{
     text-align: center;
     line-height: 0.6rem;
 }
+.bottom > .b_right > a{
+    color: #000;
+}

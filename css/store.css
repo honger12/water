@@ -103,10 +103,14 @@ header{
     text-align: center;
     line-height: 0.43rem;
 }
-.pingjia .right .a{
+.pingjia .right .aaa{
     display: inline-block;
     /*line-height: 0.2rem;*/
     /*text-align: center;*/
+}
+.pingjia .right .aaa a{
+    font-size:0.22rem ;
+    color: #3bacfe;
 }
 .pingjia > .right > .iconfont{
     width: 0.11rem;
@@ -136,7 +140,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.content .one > .one_left > img{
+.content .one > .one_left > a > img{
     width: 1.2rem;
     height: 1.44rem;
 }

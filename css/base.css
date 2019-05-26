@@ -67,3 +67,45 @@ body {
 @media screen and (min-width: 414px) {
     html {
         font-size: 55.2px; } }
+
+
+
+/*老师——底部*/
+footer{
+    width: 100%;
+    height:0.98rem ;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /*有padding扩大宽度100%*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*缩回100%的宽度*/
+    display: flex;
+    justify-content: space-between;
+}
+footer > a{
+    width: 0.7rem;
+    height: 100%;
+    /*background: #046B80;*/
+    font-size: 0.24rem;
+    color: #04bbfe;
+    /*图片和文字居中（前提：图片不是block的形式）*/
+    text-align: center;
+    padding-top: 0.1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*调节亮度 （透明度）*/
+    opacity: 0.5;
+}
+footer >a.hot{
+    opacity: 1;
+}
+footer > a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
+/*底部end*/
