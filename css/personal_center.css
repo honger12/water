@@ -149,15 +149,15 @@
 }
 .bottom .b_one > .b_one1{
     color: #4ebbfe;
-    box-shadow: 0 0.04rem 0.08rem 0 rgba(41, 167, 255, 0.36);
+    /*box-shadow: 0 0.04rem 0.08rem 0 rgba(41, 167, 255, 0.36);*/
 }
 .bottom .b_one > .b_one2{
     color: #2ddd67;
-    box-shadow:0 0.04rem 0.08rem 0 rgba(46, 213, 147, 0.36);
+    /*box-shadow:0 0.04rem 0.08rem 0 rgba(46, 213, 147, 0.36);*/
 }
 .bottom .b_one > .b_one3{
     color: #ffdb34;
-    box-shadow:0 0.04rem 0.08rem 0 rgba(255, 213, 53, 0.36);
+    /*box-shadow:0 0.04rem 0.08rem 0 rgba(255, 213, 53, 0.36);*/
 }
 .bottom .b_one > p > a{
     /*margin-top:0.1rem ;*/
